@@ -1,4 +1,4 @@
-*{
+* {
     /* reset do css */
     margin: 0;
     padding: 0;
@@ -6,8 +6,15 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
-header{
+/* 1rem =16px */
+/* 40px = 2,5rem */
+
+header {
     background-image: url(./imagens/bg-mobile.png);
     background-size: cover;
-   
+    height: 8.375rem;
+    /* sempre que posição você trabalha com display:flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
